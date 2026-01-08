@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: "inter";
+}
+
+nav{
+    max-width: 1360px;
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* nav menu list */
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    justify-content: space-between;
+}
+/* nav menu list anchor */
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-family: "inter";
+    font-weight: 500;
+}
+/* nav button */
+nav button{
+    background-color: #30B868;
+    color: white;
+    font-weight: 500;
+    width: 164px;
+    height: 44px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.banner{
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.btn{
+    background-color: #30B868;
+    color: white;
+    font-weight: 500;
+    height: 52px;
+    border: 0;
+    border-radius: 4px;
+}
