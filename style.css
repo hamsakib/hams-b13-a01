@@ -4,7 +4,6 @@
 }
 
 nav{
-    max-width: 1360px;
     padding: 16px 120px;
     display: flex;
     justify-content: space-between;
@@ -34,19 +33,85 @@ nav button{
     border: 0;
     border-radius: 4px;
 }
-
-.banner{
+/* hero container */
+.hero{
     background-image: url(./assets/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
+    padding: 154.5px 0 189.54px 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.btn{
+.small-banner{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    /* height: 35px; */
+    /* width: 229px; */
+    padding: 8px 12px;
+    background-color: white ;
+    color: #30B868;
+    border-radius: 999px;
+    font-size: 16px;
+}
+.dot {
+  /* Group 5 */
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: var(--#30B868);
+}
+
+.hero-title span{
+    display: block;
+    font-size: 72px;
+    font-weight: bold;
+}
+#hero-title-line2{
+    color: #30B868;
+}
+.hero-p span{
+    display: block;
+    margin: 16px;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+#hero-btn1{
+    display: flex;
+    height: 52px;
     background-color: #30B868;
     color: white;
-    font-weight: 500;
-    height: 52px;
-    border: 0;
+    font-weight: 600;
+    /* font-family: "inter"; */
+    align-items: center;
+    justify-content: space-between;
+    border: 0 ;
     border-radius: 4px;
+    gap: 10px;
+    padding: 10px 16px;
+}
+#hero-btn2{
+    display: flex;
+    height: 52px;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    /* font-family: "inter"; */
+    align-items: center;
+    justify-content: space-between;
+     border: 1px solid #ffffff;
+    border-radius: 4px;
+    gap: 10px;
+    padding: 10px 16px;
 }
