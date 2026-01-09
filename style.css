@@ -48,8 +48,6 @@ nav button{
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    /* height: 35px; */
-    /* width: 229px; */
     padding: 8px 12px;
     background-color: white ;
     color: #30B868;
@@ -58,7 +56,6 @@ nav button{
 }
 /* Dots in Small Banner */
 .dot {
-  /* Group 5 */
     width: 16px;
     height: 16px;
     border-radius: 8px;
@@ -94,7 +91,6 @@ nav button{
     background-color: #30B868;
     color: white;
     font-weight: 600;
-    /* font-family: "inter"; */
     align-items: center;
     justify-content: space-between;
     border: 0 ;
@@ -109,7 +105,6 @@ nav button{
     background: transparent;
     color: white;
     font-weight: 600;
-    /* font-family: "inter"; */
     align-items: center;
     justify-content: space-between;
      border: 1px solid #ffffff;
