@@ -159,3 +159,36 @@ nav button{
     border-radius: 999px;
     padding: 13.6px;
 }
+
+.brain{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+}
+
+.brain-content{
+
+}
+#green-p{
+    color: #30B868;
+}
+
+.brain-content h1{
+    font-size: 48px;
+    margin-top: 16px;
+}
+#gray-p{
+    color: #627382;
+    margin-top: 16px;
+}
+
+.brain-points{
+    margin-top: 40px;
+}
+.brain-points p{
+    margin-top: 16px;
+}
+.brain-points img{
+    vertical-align: middle;
+}
